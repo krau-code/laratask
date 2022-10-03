@@ -1,0 +1,45 @@
+.menu-btn {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.menu-top,
+.menu-middle,
+.menu-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.menu-middle {
+    transform: translateY(7px);
+}
+
+.menu-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .menu-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .menu-middle {
+    display: none;
+}
+
+.open .menu-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}

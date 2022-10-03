@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #ABD699, #75C9B7);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.handwriting {
+    font-family: 'Dancing Script', cursive;
+}
+
+.highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 25%, #FFE26A 25%);
+}
