@@ -2,7 +2,7 @@
 
 Web Application with CRUD Operations and User Authentication built with Laravel, MySQL & Tailwind CSS  
 
-Color Sceme and Home Page Design from <https://www.awwwards.com/sites/verticalloop-design-for-good>
+Color Scheme and Home Page Design from <https://www.awwwards.com/sites/verticalloop-design-for-good>
 
 My Live Link: <https://bit.ly/krau-laratask>  
 
