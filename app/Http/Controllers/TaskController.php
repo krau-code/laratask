@@ -87,6 +87,6 @@ class TaskController extends Controller
 
         $task->delete();
 
-        return redirect('/tasks')->with('message', 'Listing deleted succesfully');
+        return redirect('/tasks')->with('message', 'Task deleted succesfully');
     }
 }

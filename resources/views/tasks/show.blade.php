@@ -48,7 +48,7 @@
                 <form action="/tasks/{{ $task->id }}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button class="border rounded-md px-2 py-1 border-red-500 text-red-500 ml-2 duration-150 hover:text-white hover:bg-red-500 hover:ease-in" type="submit">
+                    <button onclick="return confirm('Are you sure you want to delete task {{ $task->title }}?')" class="border rounded-md px-2 py-1 border-red-500 text-red-500 ml-2 duration-150 hover:text-white hover:bg-red-500 hover:ease-in" type="submit">
                         Delete
                     </button>
                 </form>
